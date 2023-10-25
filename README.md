@@ -4,6 +4,7 @@ An image processing app, for a university assignment.
 This image processing app is made with C# and Windows.Forms. 
 
 It includes the following functions to manipulate photos:
+- **Converting**: a function to convert an image into a grayscale image.
 - **Inversion**: a function (invertImage) that inverts the values of a single channel grayscale image.
 - **Contrast adjustment**: a function (adjustContrast) that takes a grayscale image and outputs the image with the full range of intensity values used (0-255).
 = **Gaussian filter**: a function (createGaussianFilter) that takes a (square) kernel size and a standard deviation and returns a square Gaussian kernel of the requested size (sum of all elements is 1). 
